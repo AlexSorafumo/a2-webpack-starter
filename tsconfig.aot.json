@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+
+  "files": [
+    ".build/app/app.module.ts",
+    "typings/index.d.ts"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "./.build/compiled",
+    "debug": true
+ }
+}
